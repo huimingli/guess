@@ -1,0 +1,86 @@
+/*=======================================================
+                                    选座购票
+========================================================*/
+.screen{
+    background:url(../images/ticket_screen.jpg) no-repeat center 0 ;height: 40px;
+}
+.seat_num{
+    position: absolute;
+    left: 0;
+}
+.seat_num td{
+    height: 19px;
+    text-align: center;
+    padding: 5px 0;
+    line-height: 19px;
+    overflow: hidden;
+    color: #7f7f7f;
+    font-size: 13px;
+}
+.seat_views tr td{
+    padding: 5px 0;
+    height: 19px;
+    line-height: 19px;
+    position: relative;
+    zoom:1;
+}
+.seat_null,.seat_lover,.seat_ture,.seat_selected,.seat_false{
+    background: url(../images/new_ticket_ico.png) no-repeat;
+    width:23px;
+    height: 19px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.seat_ture{
+    background-position: -126px -262px;
+    cursor: pointer;
+}
+.seat_false{
+    background-position: -102px -262px;
+}
+.seat_selected{
+    background-position: -150px -262px;
+    cursor: pointer;
+}
+.seat_null{
+    background: 0;
+}
+.seat_lover{
+    background-position: -174px -262px;
+    width:55px;
+    height: 19px;
+}
+.tc span{
+    padding: 0 10px;
+}
+.tick_right{
+    padding:5px 10px;border-radius:5px;height: 20px;color: white;
+    background-color: #F07101;
+}
+.ticket_info ul li{
+    margin-top: 15px;
+    color: #000000;
+}
+.ticket_info ul li img{
+    float: left;
+}
+.ticket_info ul li>div>div{
+    /*display: inline-block;*/
+    float: left;
+    margin-right: 5px;
+}
+.ticket_info ul li p{
+    margin:5px 0 0 20px;
+}
+.ticket_info ul li h4{
+    font-size: 18px;
+    margin-left: 15px;
+    display: inline;
+}
+input{
+    border-radius: 8px;
+    height: 35px;
+    padding: 5px;
+    border:1px solid silver;
+    font-size: 16px;
+}

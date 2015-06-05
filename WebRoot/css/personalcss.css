@@ -1,0 +1,179 @@
+/*======================================================
+                    个人主页样式
+=======================================================*/
+body{
+    font-size: 15px;
+}
+.inner>div{
+    margin-bottom:20px;
+}
+a:hover{
+    color: #737373;
+}
+.moreblue:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.mr30{
+    margin-right: 30px;
+}
+.whitebg{
+    background-color: #ffffff;
+}
+.person_header{
+    height: 300px;position: relative;margin-bottom: 0 !important;
+}
+.ph_header{
+    height:300px;width:100%;position:absolute;overflow:hidden;background: url(../images/03.jpg)
+}
+.ph_photo{
+    position: relative;width:100px;height: 100px;margin: 48px auto 0 !important;padding: 4px;border-radius: 50%;background: rgba(255,255,255,0.3);
+}
+.ph_photo img{
+    width:100px;height: 100px;border-radius: 50%;
+}
+.ph_username{
+    margin-top: 6px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+    vertical-align: text-bottom;
+}
+.ph_intro{
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+.ph_opration{
+    margin-top:15px;
+    text-align: center;
+}
+.opt_box{
+    display: inline-block;
+    padding: 4px 0;
+    width: 100px;
+    background-color: #F07101;
+    color: #ffffff;
+    box-shadow: 0 2px 1px rgba(0,0,0,.2);
+    cursor: pointer;
+}
+.ph_opration div:hover{
+    background-color: #E36C00;
+}
+.person_nav{
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+}
+.ph_nav_selected{
+    border-bottom:3px solid #f07100 ;
+    font-weight: bold;
+}
+.person_nav a{
+    vertical-align: middle;
+    padding: 8px 3px;
+    margin-left: 300px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 15px;
+}
+.person_nav a:hover{
+    color: black;
+    border-bottom:3px solid #f07100 ;
+}
+.ph_innerwrap{
+    width:100%;
+    padding: 15px 0;
+}
+.tb_counter{
+    width:100%;
+    text-align: center;
+}
+.tb_counter td{
+    border-left-width:1px;
+    border-left-style: solid;
+    border-color: #d9d9d9;
+}
+.tb_counter td strong{
+    display: block;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.tb_counter td strong:hover{
+    color: #f07100;
+}
+.ph_fans ul li{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:50px;
+    height: 70px;
+    text-align: center;
+    font-size: 14px;
+}
+.ph_fans ul li:nth-child(3n+3){
+    margin-right: 0;
+}
+.ph_fans ul li img{
+    width:50px;
+    height: 50px;
+}
+.ph_fans ul li a:hover{
+    text-decoration: underline;
+}
+.ph_type{
+    height: 15px;padding: 10px;position: relative;
+}
+.arrow_down{
+    width:10px;height:10px;display:inline-block;vertical-align:top;background:url(../images/ui-icons.png) -69px 0;margin: 3px 0 0 5px;
+}
+.box_down{
+    position: absolute;
+    top:35px;
+    left:0;
+    width:60px;
+    padding: 10px;
+    z-index:1;
+    box-shadow: 0 2px 8px 1px rgba(0,0,0,0.2);
+    font-size: 14px;
+    border-radius: 2px;
+    display: none;
+}
+.box_down ul li{
+    margin-top: 10px;
+}
+/* 微评 */
+.small_comm,.big_comm{
+    margin:10px 0;padding:20px 20px 50px;border-radius: 8px;position: relative;
+}
+.small_comm>p>span,.big_comm p{
+    line-height: 25px;
+}
+.small_moive{
+    margin: 10px 0 30px;
+}
+.small_pop_wrap{
+    position: absolute;
+    left: 100px;
+    top:-150px;
+    z-index: 1;
+}
+.small_pop_box{
+    padding: 10px;width:250px;position: relative;
+}
+.small_moive .small_check{
+    position: absolute;bottom:10px
+}
+.sm_info{
+    width:100%;position: absolute;bottom:20px
+}
+.sm_respn{
+    position: absolute;right:50px
+}
+.sm_info .mr30 span{
+    color: silver;
+}
+.sm_respn a{
+    margin-right: 10px;
+}
